@@ -1,7 +1,8 @@
-# RPGUI
-Lightweight framework for old-school RPG GUI in web!
+# RPGUI Enhanced
+RPGUI Enhanced is a modified version of (https://github.com/RonenNess/RPGUI) Lightweight framework for old-school RPG GUI in web!
+This version was created to simplify the build process and make some css less opinionated 
 
-[Live examples here](http://ronenness.github.io/RPGUI/)
+[Live examples here](http://shanemcgowan.github.io/RPGUI/)
 
 ## Table of Contents
 
@@ -459,17 +460,22 @@ First install npm modules:
 npm install
 ```
 
-Then use gulp:
+Build changes to both scripts and styles:
 
 ```
-gulp dist
+npm run build
 ```
 
-Or on windows:
+Build changes to just styles
+```
+npm run build-styles
+```
 
+Build changes to just styles
 ```
-node_modules\.bin\gulp dist
+npm run build-scripts
 ```
+
 
 ## Changelog
 
@@ -499,15 +505,13 @@ node_modules\.bin\gulp dist
 
 ## Credits
 
-- PRGUI default theme uses the public-domain graphics made by Buch, aka Michele Bucelli ()http://opengameart.org/users/buch).
+- Original RPGUI repo by RonenNess (https://github.com/RonenNess/RPGUI)
+- PRGUI default theme uses the public-domain graphics made by Buch, aka Michele Bucelli (http://opengameart.org/users/buch).
 - Special thanks to titoasty (https://github.com/titoasty) that contributed a lot to this lib.
-	
+
 ## License
 
 RPGUI is distributed under the zlib-license, and is absolutely free for use in any purpose (personal, educational, commercial, etc..).
 See LICENSE.txt for more info.
 
-## Contact Me
 
-For issues / bugs use the Report Issue button.
-For anything else, feel free to contact me: ronenness@gmail.com.

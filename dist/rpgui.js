@@ -1,3 +1,4 @@
+/** This needs to be the FIRST file in the CONCAT */
 RPGUI = (function() {
 
 /**
@@ -9,7 +10,7 @@ RPGUI = (function() {
 var RPGUI = RPGUI || {};
 
 // lib version
-RPGUI.version = 1.03;
+RPGUI.version = 1.04;
 
 // author
 RPGUI.author = "Ronen Ness";
@@ -1024,4 +1025,5 @@ RPGUI.insert_after = function(to_insert, after_element)
 {
     after_element.parentNode.insertBefore(to_insert, after_element.nextSibling);
 };
+/** This needs to be the LAST file in the CONCAT */
 return RPGUI;})();

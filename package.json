@@ -1,17 +1,21 @@
 {
-  "name": "RPGUI",
-  "version": "1.0.3",
-  "description": "Fork of RPGUI with a simpler set of dependencies",
+  "name": "RPGUI Enhanced",
+  "version": "1.0.4",
+  "description": "Fork of RPGUI with a simpler set of dependencies / easier build process and some enhancements",
   "main": "",
-  "dependencies": {
-    "sass": "^1.32.8"
+  "dependencies": {},
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "sass": "^1.32.8",
+    "uglify-js": "^3.13.3"
   },
-  "devDependencies": {},
   "scripts": {
-    "dev": "sass --no-source-map --watch src/styles/app.scss dist/rpgui.css",
-    "build": "sass --no-source-map src/styles/app.scss dist/rpgui.css && sass --no-source-map --style=compressed dist/rpgui.css dist/rpgui.min.css"
+    "build": "npm run build-styles && npm run build-scripts",
+    "dev-styles": "sass --no-source-map --watch src/styles/app.scss dist/rpgui.css",
+    "build-styles": "sass --no-source-map src/styles/app.scss dist/rpgui.css && sass --no-source-map --style=compressed dist/rpgui.css dist/rpgui.min.css",
+    "build-scripts": "concat -o dist/rpgui.js ./src/scripts/_header.js ./src/scripts/init.js ./src/scripts/global_methods.js ./src/scripts/rpgui-checkbox.js ./src/scripts/rpgui-content.js ./src/scripts/rpgui-draggable.js ./src/scripts/rpgui-progress-bar.js ./src/scripts/rpgui-radio.js ./src/scripts/rpgui-select-dropdown.js ./src/scripts/rpgui-select-list.js ./src/scripts/rpgui-slider.js ./src/scripts/utils.js ./src/scripts/_footer.js && uglifyjs ./dist/rpgui.js --output ./dist/rpgui.min.js"
   },
-  "author": "Ronen Ness",
+  "author": "Shane McGowan",
   "license": "Zlib",
-  "homepage": "http://ronenness.github.io/RPGUI/"
+  "homepage": "http://shanemcgowan.github.io/RPGUI/"
 }
