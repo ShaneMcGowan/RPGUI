@@ -9,7 +9,7 @@ Live examples can be found [here](http://ronenness.github.io/RPGUI/).
 This framework provide out-of-the-box GUI for web games with old-school RPG style.
 Once including this lib all you need to do is start adding regular html elements with RPGUI classes, and RPGUI will do all the rest! 
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/screenshot.jpg)
+![alt tag](/docs/imagesscreenshot.jpg)
 (Image is slightly outdated.)
 
 **RPGUI is a css+js framework for client side only, you don't need to require it on node.js side.**

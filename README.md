@@ -17,7 +17,7 @@ Lightweight framework for old-school RPG GUI in web!
 This framework provide out-of-the-box GUI for web games with old-school RPG style.
 Once including this lib all you need to do is start adding regular html elements with RPGUI classes, and RPGUI will do all the rest!
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/screenshot.jpg)
+![alt tag](/docs/images/screenshot.jpg)
 (Image is slightly outdated.)
 
 ## Key Features
@@ -146,7 +146,7 @@ Note that this class already change some element styling and change the cursor, 
 
 ### rpgui-container
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/frames.jpg)
+![alt tag](/docs/images/frames.jpg)
 
 Container is like a form or a "window" with gui elements.
 Even though everything is inside the rpgui-content div, you should put all your RPGUI elements inside rpgui-containers.
@@ -206,7 +206,7 @@ To make a container draggable:
 
 ### paragraphs, links, headers, labels and span
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/paragraph.jpg)
+![alt tag](/docs/images/paragraph.jpg)
 
 All paragraphs and header elements are automatically styled when inside the rpgui-content.
 The default font is imported from google fonts (check out imports.css for more info), and all text is white with black outline.
@@ -221,13 +221,13 @@ You don't need to do anything special to use these elements, just put them insid
 
 ### input & textarea
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/input.jpg)
+![alt tag](/docs/images/input.jpg)
 
 Similar to paragraphs, these elements are styled automatically when inside the rpgui-content. Use them as you would with normal HTML input and textarea elements.
 
 ### rpgui-slider
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/sliders.jpg)
+![alt tag](/docs/images/sliders.jpg)
 
 A rpgui-slider is like an HTML range input but with RPGUI style. 
 To create an rpgui-slider just create an input element with type="range" and class="rpgui-slider":
@@ -249,7 +249,7 @@ There's another variation of the slider with a more fancy style. To use it add t
 
 ### rpgui-progress
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/bars.jpg)
+![alt tag](/docs/images/bars.jpg)
 
 A rpgui-progress is like a progress bar that can fills up. Or more useful for games, an health/mana bar.
 To create a progress bar just create a div with the class "rpgui-progress":
@@ -286,7 +286,7 @@ For example:
 
 ### rpgui-icon
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/icons.jpg)
+![alt tag](/docs/images/icons.jpg)
 
 This class will create a simple square icon. There are 15 built-in icons in RPGUI, but its really easy to create new ones (check out icon.css file for more info).
 Here's how to use the icons:
@@ -311,7 +311,7 @@ Here's how to use the icons:
 
 ### rpgui-dropdown
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/dropdown.jpg)
+![alt tag](/docs/images/dropdown.jpg)
 
 This class is used for &lt;select&gt; with &lt;option&gt; tags, and it creates a dropdown select widget with the RPGUI design.
 To use it create a &lt;select&gt; tag with &lt;option&gt;s inside, and add the "rpgui-dropdown" class to the &lt;select&gt; parent tag.
@@ -331,7 +331,7 @@ To use the dropdown just use the &lt;select&gt; tag as you would normally do, bu
 
 ### rpgui-list
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/list.jpg)
+![alt tag](/docs/images/list.jpg)
 
 This class is used for &lt;select&gt; with &lt;option&gt; tags, and it creates a list select widget with the RPGUI design.
 To use it create a &lt;select&gt; tag with &lt;option&gt;s inside, and add the "rpgui-list" class to the &lt;select&gt; parent tag.
@@ -351,7 +351,7 @@ To use the dropdown just use the &lt;select&gt; tag as you would normally do, bu
 
 ### rpgui-button
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/buttons.jpg)
+![alt tag](/docs/images/buttons.jpg)
 
 rpgui-button is a styled Button with text on it. To use it, create a button with paragraph inside and give the button the "rpgui-button" class. For example:
 
@@ -371,7 +371,7 @@ This behaves like a regular rpgui-button but with a different graphics.
 
 ### hr
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/hr.jpg)
+![alt tag](/docs/images/hr.jpg)
 
 RPGUI gives automatic style to any &lt;hr&gt; tag inside the rpgui-content. You can use &lt;hr&gt; tags as a nice method to separate parts of a container.
 
@@ -383,7 +383,7 @@ In addition, there's a fancier version of an &lt;hr&gt; you can use with the "go
 
 ### rpgui-checkbox
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/checkbox.jpg)
+![alt tag](/docs/images/checkbox.jpg)
 
 rpgui-checkbox are Checkboxes with a nice RPGUI design. To use them create a checkbox input tag with a label after it (it won't work without the label!) and give it the "rpgui-checkbox" class.
 For example:
@@ -406,7 +406,7 @@ There's a golden variation to the checkbox you can use for fancier graphics:
 
 ### rpgui-radio
 
-![alt tag](https://raw.githubusercontent.com/RonenNess/RPGUI/master/for_readme/radio.jpg)
+![alt tag](/docs/images/radio.jpg)
 
 rpgui-radio are radio buttons with a nice RPGUI design. To use them create a radio input tag with a label after it (it won't work without the label!) and give it the "rpgui-radio" class.
 For example:
