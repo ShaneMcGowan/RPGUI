@@ -2,7 +2,7 @@
 RPGUI Enhanced is a modified version of (https://github.com/RonenNess/RPGUI) Lightweight framework for old-school RPG GUI in web!
 This version was created to simplify the build process and make some css less opinionated 
 
-[Live examples here](http://shanemcgowan.github.io/RPGUI/)
+[Live examples here](https://shanemcgowan.github.io/RPGUI/docs/)
 
 ## Table of Contents
 
