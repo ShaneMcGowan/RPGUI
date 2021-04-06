@@ -1,5 +1,5 @@
 {
-  "name": "RPGUI Enhanced",
+  "name": "rpgui",
   "version": "1.0.4",
   "description": "Fork of RPGUI with a simpler set of dependencies / easier build process and some enhancements",
   "main": "",
